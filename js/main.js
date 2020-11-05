@@ -43,4 +43,14 @@ $(document).ready(function() {
     }
   }
   navbarFixed();
+
+  $('.navbar-nav li').click(function(e) {
+	  e.stopPropagation();
+	  $('.navbar-nav li.active').removeClass('active');
+	  let $this = $(this);
+	
+	  if (!$this.hasClass('active')) {
+		  $this.addClass('active');
+	  }
+  });
 });
