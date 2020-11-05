@@ -14,6 +14,40 @@
   .site-main > .services-area .services {
     width: 13rem;
   }
+
+  .about-image {
+    display: none;
+  }
+
+  .services-img {
+    padding: 0;
+  }
+
+  .site-main .reviews-area .reviews-title {
+    padding: 0;
+  }
+
+  .site-main .reviews-area .client .client-info {
+    padding-top: 0;
+  }
+
+  footer.footer-area .social a > i {
+    padding: 1rem;
+    margin-bottom: 4rem;
+  }
+
+  .site-main .project-area {
+    padding: 0;
+    padding-bottom: 6rem;
+  }
+
+  .site-main .project-area button + button {
+    padding-left: 1rem;
+  }
+
+  .site-main .project-area .button-group {
+    margin-bottom: 2rem;
+  }
 }
 
 @media only screen and (max-width: 792px) {
